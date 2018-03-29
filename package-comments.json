@@ -1,0 +1,39 @@
+{
+  "name": "for-learn-react-router",
+  "version": "1.0.0",
+  "description": "for-learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wpkd": "webpack-dev-server --env development",
+
+    // 开启一个node本地服务
+    "dev": "webpack-dev-server --host 0.0.0.0 --port 8991 --colors --open --config webpack.dev.js"
+  },
+  "keywords": [
+    "for-learn"
+  ],
+  "author": "xxx",
+  "license": "ISC",
+  "dependencies": {
+    "qs": "^6.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "reflux": "^6.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xxx"
+  }
+}
